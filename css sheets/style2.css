@@ -1,0 +1,113 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    
+    background-color:#242424;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+
+.heading{
+    margin-left: 14cm;
+    
+}
+
+.search{
+    float: right;
+    margin-left: 10cm;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 65px;
+    
+    
+
+}
+.contents{
+    background-color: rgb(227, 233, 233);
+    
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+    
+
+}
+
+.nav{
+    text-decoration: none;
+    text-align: center;
+    
+
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.bimage{
+    background-image: url(../images/newhp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+
+
+
+
+input{
+    padding: 5px 40px 5px 6px;
+    color: white;
+    background-color:#333232 ;
+    border-radius: 10%;
+
+    
+}
+
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+wrapper > div{
+    background-color:#000000 ;
+}
+
+.wrapper > div:nth-child(odd){
+
+    background-color: #3d2727;
+}
+    .copy{
+        background-color:#242424 ;
+        color: white;
+    }
